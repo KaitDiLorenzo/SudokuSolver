@@ -1,0 +1,13 @@
+div.puzzle.container > div.row > div.col:first-child {
+    border-left: 1.5px solid black;
+}
+
+div.puzzle.container > div.row:first-child {
+    border-top: 1.5px solid black;
+}
+
+div.puzzle.container > div.row > div.col {
+    border-right: 1.5px solid black;
+    border-bottom: 1.5px solid black;
+    max-width: min-content;
+}
